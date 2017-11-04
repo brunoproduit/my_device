@@ -9,8 +9,7 @@ cd my_device
 ./install.sh
 ```
 
-Note: needs sudo for insmod
-The device driver is created in the nodefile `/dev/my_device` as a character device with major number *42*.
+Note: needs sudo for insmod.The device driver is created in the nodefile `/dev/my_device` as a character device with major number *42*.
 
 ## Remove 
 
