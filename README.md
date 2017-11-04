@@ -1,5 +1,5 @@
 # my_device
-This is an example of a kernel device which works as a parrallel port. When writing or reading from the device, it will write in a buffer and print in the KERN_DEBUG. 
+This is an example of a kernel device which works as a parrallel port. When writing or reading from the device, it will write in a buffer and print in the KERN_DEBUG.
 
 ## Install
 
@@ -10,6 +10,7 @@ cd my_device
 ```
 
 Note: needs sudo for insmod
+The device driver is created in the nodefile `/dev/my_device` as a character device with major number *42*.
 
 ## Remove 
 
