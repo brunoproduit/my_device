@@ -1,5 +1,4 @@
-// make
-// Bruno Produit
+// gcc -o device_usage_example device_usage_example.c
 
 #include "unistd.h"
 #include "stdio.h"
