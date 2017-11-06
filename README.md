@@ -9,7 +9,9 @@ cd my_device
 ./install.sh
 ```
 
-Note: needs sudo for insmod.The device driver is created in the nodefile `/dev/my_device` as a character device with major number *42*.
+Note: needs sudo for insmod, mknod & chmod.
+
+The device driver is created in the nodefile `/dev/my_device` as a character device with major number *42*.
 
 ## Remove 
 
@@ -17,6 +19,6 @@ Note: needs sudo for insmod.The device driver is created in the nodefile `/dev/m
 ./remove.sh
 ```
 
-Note: needs sudo for rmmod
+Note: needs sudo for rmmod & rm.
 
 The device will write in KERN_DEBUG, which can be read with `dmesg`.
