@@ -4,12 +4,14 @@ This is an example of a kernel device which works as a parrallel port. When writ
 ## Install
 
 ```
-git clone https://github.com/brunoproduit/my_device.git
+git clone git@github.com:brunoproduit/my_device.git
 cd my_device
 ./install.sh
 ```
 
 Note: needs sudo for insmod, mknod & chmod.
+
+if you just want to compile a simple `make` is enough.
 
 The device driver is created in the nodefile `/dev/my_device` as a character device with major number *42*.
 
