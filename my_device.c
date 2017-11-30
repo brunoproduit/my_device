@@ -12,6 +12,11 @@
 #define DEVICE_MAJOR 42    // Parallel port major number
 #define BUFFER_LENGTH 100
 
+MODULE_LICENSE(“GPL”);
+MODULE_AUTHOR(“Bruno Produit”);
+MODULE_DESCRIPTION(“myDevice kernel device”);
+MODULE_VERSION(“1.0”);
+
 static unsigned char var[BUFFER_LENGTH]; // Variable 100 bytes
 
 static int     dev_open    (struct inode *inode, struct file *file);
