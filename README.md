@@ -23,6 +23,8 @@ make test
 ```
 
 This will insert the module in the kernel, clean dmesg, run device_usage_example.c and print dmesg.
+It is also possible to read with `cat /dev/my_device`.
+
 ## Remove
 
 ```
