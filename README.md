@@ -22,7 +22,7 @@ In order to test you can use:
 make test
 ```
 
-This will insert the modue in the kernel, clean dmesg, run device_usage_example.c and print dmesg.
+This will insert the module in the kernel, clean dmesg, run device_usage_example.c and print dmesg.
 ## Remove
 
 ```
