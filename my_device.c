@@ -30,7 +30,7 @@ struct file_operations par_fops = {
 	write: dev_write,
 	open: dev_open,
 	release: dev_release,
-    llseek: dev_lseek
+	llseek: dev_lseek
 };
 
 int kernelVal = 0;
